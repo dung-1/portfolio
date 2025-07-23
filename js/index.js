@@ -122,3 +122,12 @@ var setBackgroundUrl = () => {
     })
 }
 setBackgroundUrl();
+document.addEventListener('DOMContentLoaded', function () {
+  const backToTop = document.getElementById('back-to-top');
+  window.addEventListener('scroll', function () {
+    backToTop.style.display = window.scrollY > 300 ? 'block' : 'none';
+  });
+  backToTop.addEventListener('click', function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+});

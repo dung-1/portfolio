@@ -9,7 +9,7 @@ window.onload = () => {
 *******************/
 var hamberger = $('#hamberger');
 var navOverlay = $('#nav-overlay');
-var navBar = $('#nav-bar');
+var navBar = $('#nav');
 var navMain = $('#nav');
 hamberger.click(() => {
     var x = window.matchMedia("(max-width: 720px)")
@@ -65,20 +65,38 @@ function createItemGalery(url) {
         $('.portfolio-menu-item').addClass('show');
     },500)
 }
+function createProjectCard(project) {
+    var $card = document.createElement('div');
+    $card.classList.add('portfolio-project-card');
+    $card.innerHTML = `
+        <div class="project-image">
+            <img src="${project.url}/${project.name}${project.type}" alt="${project.title}">
+        </div>
+        <div class="project-content">
+            <h2 class="project-title">${project.title}</h2>
+            <div class="project-date">
+                <span>${project.startDate} - ${project.endDate}</span>
+            </div>
+            <p class="project-desc">${project.description.replace(/\n/g, '<br>')}</p>
+        </div>
+    `;
+    $portfolioWrapper.append($card);
+}
+
 function callAJAX(filter) {
     $.ajax({
         url : "../json/data.json",
         success : function(data) {
+            $portfolioWrapper.empty();
+            itemHolder = [];
             for (var i = 0; i < data.length; i++) {
                 if (data[i].filter == filter) {
-                    itemHolder.push(data[i].url + "/" + data[i].name + data[i].type);
+                    itemHolder.push(data[i]);
                 }
-                if (i == (data.length - 1)) {
-                    for (var j = 0; itemHolder.length <= 3 ? j < itemHolder.length  : j < 3; j++) {
-                        createItemGalery(itemHolder[j]);
-                        currentItemNum = $('.portfolio-menu-item').length;
-                    }
-                }         
+            }
+            // Hiển thị tất cả dự án (hoặc bạn có thể phân trang)
+            for (var j = 0; j < itemHolder.length; j++) {
+                createProjectCard(itemHolder[j]);
             }
         }
     })

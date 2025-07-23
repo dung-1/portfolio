@@ -30,25 +30,16 @@ emailInput.each(function() {
     })
 })
 
-submitButton.each(function() {
-    $(this).click(function(e) {
+emailForm.on('submit', function(e) {
+    var val = emailInput.val();
+    if (!checkEmailValid(val)) {
         e.preventDefault();
-        var val = $(this).parent().find('input').val();
-        var input = $(this).parent().find('input');
-        var form = $(this).parent();
-        if (checkEmailValid(val)) {
-            subForm(form);
-            input.val("");
-            form.removeClass('error');
-            input.attr('placeholder','Thank you! See you around!');
-        } else {
-            form.addClass('error');
-            if (input.val() === "") {
-                input.attr('placeholder','Example@email.com');
-            }
+        emailInput.parent().addClass('error');
+        if (emailInput.val() === "") {
+            emailInput.attr('placeholder','Example@email.com');
         }
-    })
-})
+    }
+});
 
 function checkEmailValid(val) {
     if(/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(val)) {
@@ -58,15 +49,23 @@ function checkEmailValid(val) {
     }
 }
 
-const scriptURL = `https://api.apispreadsheets.com/data/9327/`;
+const scriptURL = `http://127.0.0.1:5500/send-email`;
 const submitKey = `AKfycbxC6KsTT3A4pt4Gze90E00nDU6dOqSbUnLqJnLTtHrPLcqSOR7MiXXnhhcI0bKoL5hC3g`;
 
 function subForm (form) {
+    var email = form.find('.email').val();
     $.ajax({
         url: scriptURL,
-        type:'post',
-        data:form.serializeArray(),
+        type:'POST',
+        data:JSON.stringify({email:email}),
         success: function(){
+            form.removeClass('error');
+            form.find('.email').val("");
+            form.find('.email').attr('placeholder','Thank you! See you around!');
         },
+        error: function(err) {
+            form.addClass('error');
+            form.find('.email').attr('placeholder','Whoops, make sure it\'s an email');
+        }
     });
 }
