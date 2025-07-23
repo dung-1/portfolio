@@ -1,0 +1,226 @@
+[
+    {
+        "filter": "logo",
+        "id" : 1,
+        "url" : "../assets/image/portfolio/thumbnail",
+        "name": "branding-01",
+        "type": ".jpg"
+    },
+    {
+        "filter": "logo",
+        "id" : 2,
+        "url" : "../assets/image/portfolio/thumbnail",
+        "name": "logo-cherry",
+        "type": ".jpg"
+    },
+    {
+        "filter": "logo",
+        "id" : 3,
+        "url" : "../assets/image/portfolio/thumbnail",
+        "name": "logo-cherry-02",
+        "type": ".jpg"
+    },
+    {
+        "filter": "logo",
+        "id" : 4,
+        "url" : "../assets/image/portfolio/thumbnail",
+        "name": "logo-cherry-03",
+        "type": ".jpg"
+    },
+    {
+        "filter": "logo",
+        "id" : 5,
+        "url" : "../assets/image/portfolio/thumbnail",
+        "name": "logo-emstore",
+        "type": ".jpg"
+    },
+    {
+        "filter": "logo",
+        "id" : 6,
+        "url" : "../assets/image/portfolio/thumbnail",
+        "name": "logo-emstore-02",
+        "type": ".jpg"
+    },
+    {
+        "filter": "logo",
+        "id" : 7,
+        "url" : "../assets/image/portfolio/thumbnail",
+        "name": "logo-emstore-03",
+        "type": ".jpg"
+    },
+    {
+        "filter": "logo",
+        "id" : 8,
+        "url" : "../assets/image/portfolio/thumbnail",
+        "name": "vivu-logo-option2.2",
+        "type": ".jpg"
+    },
+    {
+        "filter": "logo",
+        "id" : 9,
+        "url" : "../assets/image/portfolio/thumbnail",
+        "name": "vivu-logo-option2",
+        "type": ".jpg"
+    },
+    {
+        "filter": "marketing",
+        "id" : 10,
+        "url" : "../assets/image/portfolio/thumbnail",
+        "name": "banner-blushbeach",
+        "type": ".jpg"
+    },
+    {
+        "filter": "marketing",
+        "id" : 11,
+        "url" : "../assets/image/portfolio/thumbnail",
+        "name": "brochure-blushbeach",
+        "type": ".jpg"
+    },
+    {
+        "filter": "marketing",
+        "id" : 12,
+        "url" : "../assets/image/portfolio/thumbnail",
+        "name": "brochure-blushbeach-02",
+        "type": ".jpg"
+    },
+    {
+        "filter": "marketing",
+        "id" : 13,
+        "url" : "../assets/image/portfolio/thumbnail",
+        "name": "catalogue-NNT",
+        "type": ".jpg"
+    },
+    {
+        "filter": "marketing",
+        "id" : 14,
+        "url" : "../assets/image/portfolio/thumbnail",
+        "name": "flyer-blushbeach",
+        "type": ".jpg"
+    },
+    {
+        "filter": "marketing",
+        "id" : 15,
+        "url" : "../assets/image/portfolio/thumbnail",
+        "name": "flyer-blushbeach-02",
+        "type": ".jpg"
+    },
+    {
+        "filter": "marketing",
+        "id" : 16,
+        "url" : "../assets/image/portfolio/thumbnail",
+        "name": "folder-Eden",
+        "type": ".jpg"
+    },
+    {
+        "filter": "marketing",
+        "id" : 16,
+        "url" : "../assets/image/portfolio/thumbnail",
+        "name": "invitation-NNT",
+        "type": ".jpg"
+    },
+    {
+        "filter": "marketing",
+        "id" : 17,
+        "url" : "../assets/image/portfolio/thumbnail",
+        "name": "poster-cherry",
+        "type": ".jpg"
+    },
+    {
+        "filter": "marketing",
+        "id" : 18,
+        "url" : "../assets/image/portfolio/thumbnail",
+        "name": "poster-eden",
+        "type": ".jpg"
+    },
+    {
+        "filter": "marketing",
+        "id" : 19,
+        "url" : "../assets/image/portfolio/thumbnail",
+        "name": "standee-eden",
+        "type": ".jpg"
+    },
+    {
+        "filter": "marketing",
+        "id" : 20,
+        "url" : "../assets/image/portfolio/thumbnail",
+        "name": "standee-NNT",
+        "type": ".jpg"
+    },
+    {
+        "filter": "marketing",
+        "id" : 21,
+        "url" : "../assets/image/portfolio/thumbnail",
+        "name": "standee-NNT-02",
+        "type": ".jpg"
+    },
+    {
+        "filter": "marketing",
+        "id" : 22,
+        "url" : "../assets/image/portfolio/thumbnail",
+        "name": "standee-NNT-03",
+        "type": ".jpg"
+    },
+    {
+        "filter": "marketing",
+        "id" : 23,
+        "url" : "../assets/image/portfolio/thumbnail",
+        "name": "standee-NNT-04",
+        "type": ".jpg"
+    },
+    {
+        "filter": "marketing",
+        "id" : 24,
+        "url" : "../assets/image/portfolio/thumbnail",
+        "name": "ticket-blushbeach",
+        "type": ".jpg"
+    },
+    {
+        "filter": "marketing",
+        "id" : 25,
+        "url" : "../assets/image/portfolio/thumbnail",
+        "name": "voucher-blushbeach",
+        "type": ".jpg"
+    },
+    {
+        "filter": "marketing",
+        "id" : 26,
+        "url" : "../assets/image/portfolio/thumbnail",
+        "name": "voucher-NNT",
+        "type": ".jpg"
+    },
+    {
+        "filter": "marketing",
+        "id" : 27,
+        "url" : "../assets/image/portfolio/thumbnail",
+        "name": "voucher-NNT-02",
+        "type": ".jpg"
+    },
+    {
+        "filter": "web",
+        "id" : 28,
+        "url" : "../assets/image/portfolio/thumbnail",
+        "name": "website-01",
+        "type": ".jpg"
+    },
+    {
+        "filter": "web",
+        "id" : 29,
+        "url" : "../assets/image/portfolio/thumbnail",
+        "name": "website-02",
+        "type": ".jpg"
+    },
+    {
+        "filter": "web",
+        "id" : 30,
+        "url" : "../assets/image/portfolio/thumbnail",
+        "name": "website-03",
+        "type": ".jpg"
+    },
+    {
+        "filter": "web",
+        "id" : 31,
+        "url" : "../assets/image/portfolio/thumbnail",
+        "name": "website-04",
+        "type": ".jpg"
+    }
+]

@@ -1,0 +1,26 @@
+<svg id="Id_Icon_-_40x40" data-name="Id Icon - 40x40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_47" data-name="Rectangle 47" width="40" height="40" rx="10" transform="translate(1091 470)" fill="#6b7688"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_6" data-name="Mask Group 6" transform="translate(-1091 -470)" clip-path="url(#clip-path)">
+    <g id="Layer_2" data-name="Layer 2" transform="translate(1091 470.5)">
+      <g id="Layer_1" data-name="Layer 1" transform="translate(0)">
+        <g id="Surfaces">
+          <g id="Publishing_Surface" data-name="Publishing Surface">
+            <g id="Outline_no_shadow" data-name="Outline no shadow">
+              <path id="Path_147" data-name="Path 147" d="M7.083,0H32.917A7.077,7.077,0,0,1,40,7.083V31.917A7.077,7.077,0,0,1,32.917,39H7.083A7.077,7.077,0,0,1,0,31.917V7.083A7.077,7.077,0,0,1,7.083,0Z" transform="translate(0 0)" fill="#edf2f8"/>
+            </g>
+          </g>
+        </g>
+        <g id="Outlined_Mnemonics_Logos" data-name="Outlined Mnemonics Logos" transform="translate(10.817 8.549)">
+          <g id="Id">
+            <path id="Path_148" data-name="Path 148" d="M24,18.933v17.1c0,.183-.083.267-.233.267H20.5c-.15,0-.217-.083-.217-.267v-17.1c0-.15.083-.217.233-.217h3.25a.188.188,0,0,1,.217.167.062.062,0,0,1,.017.05Z" transform="translate(-20.281 -17.282)" fill="#30368e"/>
+            <path id="Path_149" data-name="Path 149" d="M39.11,35.313a8.287,8.287,0,0,1-3.583-.75A5.81,5.81,0,0,1,33.01,32.3a7.212,7.212,0,0,1-.917-3.8,6.845,6.845,0,0,1,.917-3.517A6.922,6.922,0,0,1,35.66,22.4a8.525,8.525,0,0,1,4.217-.967,2.976,2.976,0,0,1,.35.017c.15.017.317.017.517.033V16.213c0-.117.05-.183.167-.183h3.383a.15.15,0,0,1,.167.117v15.9c0,.3.017.633.033,1s.05.683.067.967a.27.27,0,0,1-.167.267,12.729,12.729,0,0,1-2.717.8A14.557,14.557,0,0,1,39.11,35.313Zm1.633-3.333V24.647a4.264,4.264,0,0,0-.45-.083c-.183-.017-.367-.033-.55-.033a4.108,4.108,0,0,0-1.883.433A3.737,3.737,0,0,0,36.443,26.2a3.7,3.7,0,0,0-.55,2.117,4.645,4.645,0,0,0,.283,1.717,3.257,3.257,0,0,0,.75,1.183,2.88,2.88,0,0,0,1.133.667,4.363,4.363,0,0,0,1.383.217c.25,0,.483-.017.7-.033A1.42,1.42,0,0,0,40.743,31.98Z" transform="translate(-25.793 -16.029)" fill="#30368e"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

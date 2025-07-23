@@ -1,0 +1,28 @@
+<svg id="Lr_Icon_-_40x40" data-name="Lr Icon - 40x40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_45" data-name="Rectangle 45" width="40" height="40" rx="10" transform="translate(978 470)" fill="#6b7688"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_5" data-name="Mask Group 5" transform="translate(-978 -470)" clip-path="url(#clip-path)">
+    <g id="Layer_2" data-name="Layer 2" transform="translate(978 470.5)">
+      <g id="Layer_1" data-name="Layer 1" transform="translate(0)">
+        <g id="Layer_2-2" data-name="Layer 2">
+          <g id="Surfaces">
+            <g id="Photo_Surface" data-name="Photo Surface">
+              <g id="Outline_no_shadow" data-name="Outline no shadow">
+                <path id="Path_144" data-name="Path 144" d="M7.083,0H32.917A7.077,7.077,0,0,1,40,7.083V31.917A7.077,7.077,0,0,1,32.917,39H7.083A7.077,7.077,0,0,1,0,31.917V7.083A7.077,7.077,0,0,1,7.083,0Z" transform="translate(0 0)" fill="#edf2f8"/>
+              </g>
+            </g>
+          </g>
+          <g id="Outlined_Mnemonics_Logos" data-name="Outlined Mnemonics Logos" transform="translate(10.165 9.997)">
+            <g id="Lr">
+              <path id="Path_145" data-name="Path 145" d="M29.894,36.314H19.328c-.183,0-.267-.1-.267-.3V18.981a.207.207,0,0,1,.183-.233h3.333a.157.157,0,0,1,.183.133v14.05h7.7c.167,0,.217.083.183.233l-.483,2.9a.29.29,0,0,1-.1.2.282.282,0,0,1-.167.05Z" transform="translate(-19.059 -18.745)" fill="#30368e"/>
+              <path id="Path_146" data-name="Path 146" d="M44.211,26.453h2.917a.375.375,0,0,1,.35.267,1.052,1.052,0,0,1,.133.383c.033.167.067.35.083.517s.033.383.033.6a6.2,6.2,0,0,1,1.783-1.433,4.975,4.975,0,0,1,2.483-.6.207.207,0,0,1,.233.183v3.317c0,.133-.083.183-.267.183a6.793,6.793,0,0,0-3.15.567,2.8,2.8,0,0,0-.9.617v8.5c0,.167-.067.233-.217.233h-3.25a.23.23,0,0,1-.267-.2v-9.3c0-.4,0-.817-.017-1.25s-.017-.867-.033-1.3q-.025-.55-.1-1.1a.153.153,0,0,1,.117-.183c.017-.017.033-.017.067,0Z" transform="translate(-30.709 -22.217)" fill="#30368e"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

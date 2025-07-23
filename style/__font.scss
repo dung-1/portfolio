@@ -1,0 +1,47 @@
+// Define font family
+* {
+    font-family: "Poppins",sans-serif;
+}
+// Define font size responsive
+:root {
+    --nav-item : 14px;
+    --main-h1 : 28px;
+    --main-h2 : 30px;
+    --main-h3 : 16px;
+    --btn : 14px;
+    --form : 12px;
+    --section-h1 : 20px;
+    --section-h2 : 20px;
+    --section-h3 : 16px;
+    --section-content : 16px;
+    --section-description : 12px;
+    --image-title : 25px;
+    --fact : 14px;
+    --banner-title : 20px;
+    --contact : 16px;
+    --footer : 14px;
+}
+    // From Mobile to Tablet screen
+@media only screen and (max-width: 1024px) {
+    :root {
+        --main-h1 : 20px;
+        --main-h2 : 24px;
+        --main-h3 : 15px;
+    }
+}
+@media only screen and (max-width:768px) {
+    :root {
+        --main-h1 : 16px;
+        --main-h2 : 16px;
+        --main-h3 : 12px;
+        --section-content : 16px;
+        --section-h1 : 16px;
+        --section-h2 : 14px;
+        --section-h3 : 12px;
+        --section-content : 12px;
+        --image-title : 20px;
+        --fact : 12px;
+        --banner-title : 14px;
+        --contact : 12px;
+    }
+}
