@@ -65,20 +65,38 @@ function createItemGalery(url) {
         $('.portfolio-menu-item').addClass('show');
     },500)
 }
+function createProjectCard(project) {
+    var $card = document.createElement('div');
+    $card.classList.add('portfolio-project-card');
+    $card.innerHTML = `
+        <div class="project-image">
+            <img src="${project.url}/${project.name}${project.type}" alt="${project.title}">
+        </div>
+        <div class="project-content">
+            <h2 class="project-title">${project.title}</h2>
+            <div class="project-date">
+                <span>${project.startDate} - ${project.endDate}</span>
+            </div>
+            <p class="project-desc">${project.description.replace(/\n/g, '<br>')}</p>
+        </div>
+    `;
+    $portfolioWrapper.append($card);
+}
+
 function callAJAX(filter) {
     $.ajax({
         url : "../json/data.json",
         success : function(data) {
+            $portfolioWrapper.empty();
+            itemHolder = [];
             for (var i = 0; i < data.length; i++) {
                 if (data[i].filter == filter) {
-                    itemHolder.push(data[i].url + "/" + data[i].name + data[i].type);
+                    itemHolder.push(data[i]);
                 }
-                if (i == (data.length - 1)) {
-                    for (var j = 0; itemHolder.length <= 3 ? j < itemHolder.length  : j < 3; j++) {
-                        createItemGalery(itemHolder[j]);
-                        currentItemNum = $('.portfolio-menu-item').length;
-                    }
-                }           
+            }
+            // Hiển thị tất cả dự án (hoặc bạn có thể phân trang)
+            for (var j = 0; j < itemHolder.length; j++) {
+                createProjectCard(itemHolder[j]);
             }
         }
     })
@@ -95,3 +113,17 @@ $showMoreBtn.click(() => {
     }
     currentItemNum = $('.portfolio-menu-item').length;
 })
+
+$(document).ready(function() {
+    $('.lang-btn').click(function() {
+        const lang = $(this).data('lang');
+        // Lấy tên file hiện tại
+        const file = window.location.pathname.split('/').pop() || 'index.html';
+        // Chuyển sang thư mục ngôn ngữ mới
+        window.location.pathname = `/${lang}/${file}`;
+    });
+
+    // Đánh dấu nút ngôn ngữ đang chọn
+    const currentLang = window.location.pathname.split('/')[1] || 'vi';
+    $(`.lang-btn[data-lang="${currentLang}"]`).addClass('active');
+});

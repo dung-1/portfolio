@@ -131,3 +131,17 @@ document.addEventListener('DOMContentLoaded', function () {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
 });
+
+$(document).ready(function() {
+    $('.lang-btn').click(function() {
+        const lang = $(this).data('lang');
+        // Lấy tên file hiện tại
+        const file = window.location.pathname.split('/').pop() || 'index.html';
+        // Chuyển sang thư mục ngôn ngữ mới
+        window.location.pathname = `/${lang}/${file}`;
+    });
+
+    // Đánh dấu nút ngôn ngữ đang chọn
+    const currentLang = window.location.pathname.split('/')[1] || 'vi';
+    $(`.lang-btn[data-lang="${currentLang}"]`).addClass('active');
+});

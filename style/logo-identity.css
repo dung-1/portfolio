@@ -2014,3 +2014,24 @@ main #main-wrapper #portfolio-menu #portfolio-menu-container .portfolio-menu-con
   opacity: 0.5;
 }
 /*# sourceMappingURL=logo-identity.css.map */
+#nav-lang {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 16px;
+}
+.lang-btn {
+  background: transparent;
+  border: none;
+  color: var(--blue, #2a3b8f);
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+.lang-btn.active,
+.lang-btn:hover {
+  background: #e0e7ff;
+}

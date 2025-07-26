@@ -29,165 +29,34 @@
         "endDate": "06/2025",
         "description": "Description:Work Management System designed to help businesses efficiently track tasks, monitor project progress, and manage team collaboration. The system provides features such as task assignment, deadline tracking, progress visualization, and notification alerts to enhance workflow efficiency.\nRole: Developed software based on QA requirements, including UI design, feature implementation, and bug fixing. Worked on enhancing user experience by creating intuitive and responsive interfaces.\nTeam size: 13\nTechnologies used: .NET CORE, C#, ASP.NET MVC, Entity Framework, jquery, JavaScript"
     },
-    {
+      {
         "filter": "marketing",
-        "id": 10,
+        "url": "../assets/image/portfolio/thumbnail",
+        "name": "vivu-logo-option2",
+        "type": ".jpg",
+        "title": "ANDROID APPLICATION FOR READING STORY ",
+        "startDate": "01/2024",
+        "endDate": "02/2024",
+        "description": "Description: App includes functions such as registering, logging in, reading stories, commenting, searching, and sorting. Also uses resful api written in Python - Django and integrates train Model into the comment function.\nRole: Participate in developing and implementing functions such as login, Contributed to developing, upgrading functionalities and UI.\nTeam size: 5\nTechnologies used: Java, Resful Api, Python - Django.\nLink-github: https://s.net.vn/Za7U"
+    },
+        {
+        "filter": "marketing",
         "url": "../assets/image/portfolio/thumbnail",
         "name": "banner-blushbeach",
-        "type": ".jpg"
-    },
-    {
-        "filter": "marketing",
-        "id": 11,
-        "url": "../assets/image/portfolio/thumbnail",
-        "name": "brochure-blushbeach",
-        "type": ".jpg"
-    },
-    {
-        "filter": "marketing",
-        "id": 12,
-        "url": "../assets/image/portfolio/thumbnail",
-        "name": "brochure-blushbeach-02",
-        "type": ".jpg"
-    },
-    {
-        "filter": "marketing",
-        "id": 13,
-        "url": "../assets/image/portfolio/thumbnail",
-        "name": "catalogue-NNT",
-        "type": ".jpg"
-    },
-    {
-        "filter": "marketing",
-        "id": 14,
-        "url": "../assets/image/portfolio/thumbnail",
-        "name": "flyer-blushbeach",
-        "type": ".jpg"
-    },
-    {
-        "filter": "marketing",
-        "id": 15,
-        "url": "../assets/image/portfolio/thumbnail",
-        "name": "flyer-blushbeach-02",
-        "type": ".jpg"
-    },
-    {
-        "filter": "marketing",
-        "id": 16,
-        "url": "../assets/image/portfolio/thumbnail",
-        "name": "folder-Eden",
-        "type": ".jpg"
-    },
-    {
-        "filter": "marketing",
-        "id": 16,
-        "url": "../assets/image/portfolio/thumbnail",
-        "name": "invitation-NNT",
-        "type": ".jpg"
-    },
-    {
-        "filter": "marketing",
-        "id": 17,
-        "url": "../assets/image/portfolio/thumbnail",
-        "name": "poster-cherry",
-        "type": ".jpg"
-    },
-    {
-        "filter": "marketing",
-        "id": 18,
-        "url": "../assets/image/portfolio/thumbnail",
-        "name": "poster-eden",
-        "type": ".jpg"
-    },
-    {
-        "filter": "marketing",
-        "id": 19,
-        "url": "../assets/image/portfolio/thumbnail",
-        "name": "standee-eden",
-        "type": ".jpg"
-    },
-    {
-        "filter": "marketing",
-        "id": 20,
-        "url": "../assets/image/portfolio/thumbnail",
-        "name": "standee-NNT",
-        "type": ".jpg"
-    },
-    {
-        "filter": "marketing",
-        "id": 21,
-        "url": "../assets/image/portfolio/thumbnail",
-        "name": "standee-NNT-02",
-        "type": ".jpg"
-    },
-    {
-        "filter": "marketing",
-        "id": 22,
-        "url": "../assets/image/portfolio/thumbnail",
-        "name": "standee-NNT-03",
-        "type": ".jpg"
-    },
-    {
-        "filter": "marketing",
-        "id": 23,
-        "url": "../assets/image/portfolio/thumbnail",
-        "name": "standee-NNT-04",
-        "type": ".jpg"
-    },
-    {
-        "filter": "marketing",
-        "id": 24,
-        "url": "../assets/image/portfolio/thumbnail",
-        "name": "ticket-blushbeach",
-        "type": ".jpg"
-    },
-    {
-        "filter": "marketing",
-        "id": 25,
-        "url": "../assets/image/portfolio/thumbnail",
-        "name": "voucher-blushbeach",
-        "type": ".jpg"
-    },
-    {
-        "filter": "marketing",
-        "id": 26,
-        "url": "../assets/image/portfolio/thumbnail",
-        "name": "voucher-NNT",
-        "type": ".jpg"
-    },
-    {
-        "filter": "marketing",
-        "id": 27,
-        "url": "../assets/image/portfolio/thumbnail",
-        "name": "voucher-NNT-02",
-        "type": ".jpg"
-    },
-    {
+        "type": ".jpg",
+        "title": "LAPTOP E-COMMERCE WEBSITE",
+        "startDate": "11/2024",
+        "endDate": "06/2025",
+        "description": "Description:Contributed to developing, upgrading functionalities.\nTeam size: 3\nTechnologies used:Java Servlet, HTML, CSS, JavaScript.\nLink-github: bit.ly/46eDg4G"
+    },  {
         "filter": "web",
-        "id": 28,
-        "url": "../assets/image/portfolio/thumbnail",
-        "name": "website-01",
-        "type": ".jpg"
-    },
-    {
-        "filter": "web",
-        "id": 29,
-        "url": "../assets/image/portfolio/thumbnail",
-        "name": "website-02",
-        "type": ".jpg"
-    },
-    {
-        "filter": "web",
-        "id": 30,
-        "url": "../assets/image/portfolio/thumbnail",
-        "name": "website-03",
-        "type": ".jpg"
-    },
-    {
-        "filter": "web",
-        "id": 31,
         "url": "../assets/image/portfolio/thumbnail",
         "name": "website-04",
-        "type": ".jpg"
+        "type": ".jpg",
+        "title": "LAPTOP E-COMMERCE WEBSITE",
+        "startDate": "05/2024",
+        "endDate": "08/2024",
+        "description": "Description: Website introduces and promotes the store's best Laptop products. Thereby increasing customer accessibility to the store. There are special functions such as handling sales operations, verifying login and sending tokens to gmail, integrating online payments and sending invoices to gmail, Vietqr API integration, Using Background Jobs and scheduled task, chatting between administrators and customers using the signalR library, chatbot integration using dialogflow and multilingual functional language integration with i18n library.\nRole: Contributed to developing, upgrading functionalities, and maintaining the system.\nTechnologies used: .NET CORE, C#, ASP.NET MVC, Entity Framework, Html, Css, Javascript, Ajax, JQuery.\nLink-github:https://s.net.vn/FgjG"
     }
+
 ]

@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio :: DungCtsDev</title>
+    <!-- Style -->
+    <link rel="stylesheet" href="/./js/owlcarousel/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/./js/owlcarousel/assets/owl.theme.default.css" />
+    <link rel="stylesheet" href="../style/index.css" />
+    <!-- End -->
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="../assets/favicon/android-chrome-192x192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="../assets/favicon/android-chrome-512x512.png" />
+    <link rel="manifest" href="../assets/favicon/site.webmanifest" />
+    <!-- End -->
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <!-- End -->
+    <!-- JQuerry import -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav id="nav">
+        <div id="nav-container">
+            <a id="nav-logo" href="#"><img src="../assets/icon/Logo - 30x30.svg" alt="Logo" /></a>
+            <div id="hamberger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div id="nav-bar">
+                <ul id="nav-bar-menu">
+                    <li class="nav-bar-item"><a href="#about">Giới thiệu</a></li>
+                    <li class="nav-bar-item"><a href="#services-hash">Dịch vụ</a></li>
+                    <li class="nav-bar-item"><a href="#portfolio">Dự án</a></li>
+                    <li class="nav-bar-item"><a href="#contact">Liên hệ</a></li>
+                </ul>
+                <div id="nav-bar-social">
+                    <a href="https://www.facebook.com/profile.php?id=61557219386837">
+                        <span class="nav-bar-social-item"><img src="../assets/icon/Fb Icon - 30x30.svg"
+                                alt="fb-icon" /></span>
+                    </a>
+                </div>
+                <div id="nav-lang">
+                    <button class="lang-btn" data-lang="vi">VI</button>
+                    <button class="lang-btn" data-lang="jp">日本語</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+            </div>
+        </div>
+        <div id="nav-overlay"></div>
+    </nav>
+    <main>
+        <div id="main-wrapper">
+            <section id="intro">
+                <div id="intro-content">
+                    <h2>Xin chào!</h2>
+                    <h3>Tôi là</h3>
+                    <h1>Dũng Nguyễn</h1>
+                    <h3>Kỹ sư phần mềm đầy đam mê</h3>
+                    <h4 style="font-weight: normal; text-align: justify;padding-bottom: 5px;">
+                        Tôi đam mê lập trình và luôn chủ động mở rộng kiến thức, cập nhật các công nghệ mới nhất để nâng cao kỹ năng của mình. Tôi chủ động trong công việc, có tinh thần trách nhiệm cao và luôn tập trung vào việc đạt được các mục tiêu đã đề ra.
+                    </h4>
+                    <form class="form-email" name="submit-to-google-sheet" action="https://formspree.io/f/yourFormID">
+                        <input class="email" type="email" name="email" id="intro-email" placeholder="Địa chỉ email" />
+                        <p>Vui lòng nhập đúng địa chỉ email</p>
+                        <button class="button" type="submit">
+                            <span>Liên hệ với tôi </span><span class="button-icon"></span>
+                        </button>
+                    </form>
+                </div>
+                <div id="intro-image">
+                    <img src="../assets/image/hero-image.png" alt="intro-image" />
+                </div>
+                <div id="intro-pattern"></div>
+            </section>
+            <section id="about">
+                <div id="about-content">
+                    <h1>
+                        Học vấn
+                        <span><img src="../assets/icon/Learning Icon - 24x25.svg" alt="Learning" /></span>
+                    </h1>
+                    <div id="learning-descr">
+                        <h3 style="font-weight: 500;">Đại học Phú Xuân - Công nghệ thông tin</h3>
+                        <span>2021 - 2025</span>
+                    </div>
+                    <hr />
+                    <p>
+                        GPA: 9.20 / 10
+                    </p>
+                    <h1>
+                        Kỹ năng
+                        <span><img src="../assets/icon/Skill Icon - 24x24.svg" alt="Skill" /></span>
+                    </h1>
+                    <div id="skill-descr">
+                        <div class="skill-group">
+                            <h3>Back-End</h3>
+                            <ul>
+                                <li><span class="skill-icon">&#128187;</span>Java, SpringBoot</li>
+                                <li><span class="skill-icon">&#128187;</span>C#, .NET</li>
+                            </ul>
+                        </div>
+                        <div class="skill-group">
+                            <h3>Front-End</h3>
+                            <ul>
+                                <li><span class="skill-icon">&#128187;</span>Angular, Razor Page, Blazor Server</li>
+                                <li><span class="skill-icon">&#128187;</span>HTML, CSS, JavaScript, TypeScript</li>
+                                <li><span class="skill-icon">&#128187;</span>Tailwind, Ajax, Bootstrap, JQuery, Bulma CSS</li>
+                            </ul>
+                        </div>
+                        <div class="skill-group">
+                            <h3>Cơ sở dữ liệu</h3>
+                            <ul>
+                                <li><span class="skill-icon">&#128451;</span>SQL Server, MySQL, MongoDB, PostgreSQL</li>
+                            </ul>
+                        </div>
+                        <div class="skill-group">
+                            <h3>IDE</h3>
+                            <ul>
+                                <li><span class="skill-icon">&#128187;</span>Visual Studio Code, Visual Studio</li>
+                            </ul>
+                        </div>
+                        <div class="skill-group">
+                            <h3>Quản lý phiên bản & Công cụ</h3>
+                            <ul>
+                                <li><span class="skill-icon">&#128736;</span>Git, Github, Sourcetree, Postman</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="about-exp">
+                    <h1>
+                        Kinh nghiệm
+                        <span><img src="../assets/icon/Experience Icon - 24x24.svg" alt="Experience" /></span>
+                    </h1>
+                    <hr />
+                    <div id="about-exp-menu">
+                        <div class="about-exp-item">
+                            <h2>CÔNG TY CỔ PHẦN TIN HỌC LẠC VIỆT</h2>
+                            <span><img src="../assets/icon/Next Icon - 24x24.svg" alt="expand-icon" /></span>
+                            <p>10/2024 - 06/2025</p>
+                            <p class="about-description" style="text-align: justify;">
+                                - Tham gia chương trình đào tạo tại công ty.<br />
+                                - Tham gia các dự án thực tế, phát triển các module theo yêu cầu.<br />
+                                - Báo cáo tiến độ công việc hàng ngày.
+                            </p>
+                        </div>
+                        <hr />
+                        <div class="about-exp-item">
+                            <h2>CÔNG TY TNHH BRYCEN VIỆT NAM</h2>
+                            <span><img src="../assets/icon/Next Icon - 24x24.svg" alt="expand-icon" /></span>
+                            <p>05/2024 - 08/2024</p>
+                            <p class="about-description" style="text-align: justify;">
+                                - Chủ động trong công việc thực tập tại công ty.<br />
+                                - Tham gia các buổi đào tạo, mentoring để nhận hướng dẫn từ các anh chị đi trước.<br />
+                                - Áp dụng kiến thức lý thuyết vào thực tế doanh nghiệp.<br />
+                                - Góp phần thiết kế, phát triển website quản lý chất lượng.
+                            </p>
+                        </div>
+                        <hr />
+                        <div class="about-exp-item">
+                            <h2>CÔNG TY TNHH CÔNG NGHỆ VÀ GIÁO DỤC VIFIRETEK</h2>
+                            <span><img src="../assets/icon/Next Icon - 24x24.svg" alt="expand-icon" /></span>
+                            <p>09/2023 - 04/2024</p>
+                            <p class="about-description" style="text-align: justify;">
+                                - Chủ động học hỏi, tự nghiên cứu và chia sẻ kiến thức với đồng nghiệp.<br />
+                                - Thường xuyên tham gia coaching, mentoring để nhận hướng dẫn từ chuyên gia.<br />
+                                - Áp dụng kiến thức lý thuyết vào các ứng dụng thực tế.<br />
+                                - Góp phần thiết kế, phát triển website thương mại điện tử sử dụng nền tảng CMS.
+                            </p>
+                        </div>
+                    </div>
+                    <h1 style="margin-top: auto;">
+                        Ngoại ngữ
+                        <span><img src="../assets/icon/Experience Icon - 24x24.svg" alt="Experience" /></span>
+                    </h1>
+                    <hr />
+                    <div id="about-exp-menu">
+                        <div class="about-exp-item">
+                            <h2>Tiếng Anh</h2>
+                            <p>B1</p>
+                        </div>
+                        <hr />
+                        <div class="about-exp-item">
+                            <h2>Tiếng Nhật</h2>
+                            <p>N4</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div id="services-hash"></div>
+            <section id="services">
+                <h1 id="services-title">Những gì tôi làm</h1>
+                <div class="services-item">
+                    <div class="services-item-text active">
+                        <h1>Phát triển phần mềm</h1>
+                        <p>
+                            Phát triển phần mềm là quá trình thiết kế, lập trình, kiểm thử và bảo trì hệ thống phần mềm. Là một kỹ sư phần mềm, tôi tập trung vào việc viết mã sạch, hiệu quả và xây dựng các giải pháp giải quyết vấn đề thực tế cho người dùng hoặc doanh nghiệp.
+                        </p>
+                    </div>
+                    <div class="services-item-image" data-url="../assets/image/portfolio/thumbnail/branding-01.jpg">
+                    </div>
+                </div>
+                <div class="services-item">
+                    <div class="services-item-text">
+                        <h1>Thiết kế & Kiến trúc hệ thống</h1>
+                        <p>
+                            Công việc này bao gồm việc lên kế hoạch cấu trúc tổng thể cho các hệ thống phức tạp. Tôi làm việc với cơ sở dữ liệu, API, dịch vụ và logic ứng dụng, hướng đến khả năng mở rộng, độ tin cậy và hiệu suất cao.
+                        </p>
+                    </div>
+                    <div class="services-item-image" data-url="../assets/image/portfolio/thumbnail/poster-eden.jpg">
+                    </div>
+                </div>
+                <div class="services-item">
+                    <div class="services-item-text">
+                        <h1>Phát triển Web & Ứng dụng</h1>
+                        <p>
+                            Xây dựng các ứng dụng web và di động động, đáp ứng tốt trên nhiều thiết bị bằng các framework và công nghệ hiện đại. Tôi chú trọng trải nghiệm người dùng và hiệu năng.
+                        </p>
+                    </div>
+                    <div class="services-item-image" data-url="../assets/image/portfolio/thumbnail/website-04.jpg">
+                    </div>
+                </div>
+                <div id="services-pattern">
+                    <img src="../assets/icon/Services pattern.svg" alt="services-pattern" />
+                </div>
+            </section>
+            <section id="portfolio">
+                <div id="portfolio-title">
+                    <h1>Dự án</h1>
+                    <hr />
+                </div>
+                <div id="portfolio-list">
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-content">
+                            <h1>Dự án thực tế</h1>
+                            <button class="button" type="button">
+                                <span><a href="./logo-identity.html">Xem chi tiết</a></span><span class="button-icon"></span>
+                            </button>
+                        </div>
+                        <div class="portfolio-item-overlay"></div>
+                        <img src="../assets/image/portfolio/logo-emstore-02.jpg" alt="logo" />
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-content">
+                            <h1>Dự án nhóm</h1>
+                            <button class="button" type="button">
+                                <span><a href="./marketing.html">Xem chi tiết</a></span><span class="button-icon"></span>
+                            </button>
+                        </div>
+                        <div class="portfolio-item-overlay"></div>
+                        <img src="../assets/image/portfolio/poster-cherry.jpg" alt="poster" />
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-content">
+                            <h1>Dự án cá nhân</h1>
+                            <button class="button" type="button">
+                                <span><a href="./web.html">Xem chi tiết</a></span><span class="button-icon"></span>
+                            </button>
+                        </div>
+                        <div class="portfolio-item-overlay"></div>
+                        <img src="../assets/image/portfolio/website-03.jpg" alt="web" />
+                    </div>
+                </div>
+            </section>
+            <section id="facts">
+                <hr />
+                <p>
+                    Học tập là một quá trình liên tục, hãy học hỏi từ những người giỏi hơn và đừng ngại đặt câu hỏi.
+                </p>
+            </section>
+            <section id="contact">
+                <div id="banner">
+                    <div id="banner-title">
+                        <h1>Hãy giữ liên lạc để cùng hợp tác trong các dự án sắp tới!</h1>
+                        <h1>Đừng ngần ngại liên hệ với tôi!</h1>
+                    </div>
+                    <div id="banner-form">
+                        <form class="form-email" action="">
+                            <input class="email" type="email" name="email" id="banner-email"
+                                placeholder="Địa chỉ email" />
+                            <p>Vui lòng nhập đúng địa chỉ email</p>
+                            <button class="button" type="submit">
+                                <span>Liên hệ với tôi </span><span class="button-icon"></span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div id="contact-info">
+                    <div class="contact-info-item">
+                        <span><img src="../assets/icon/Location Icon - 24x24.svg" alt="location" /></span>
+                        <span>Nghệ An, Việt Nam</span>
+                    </div>
+                    <div class="contact-info-item">
+                        <a href="mailto:nguyenvandung01052002@gmail.com"
+                            style="display: flex; align-items: center; text-decoration: none; color: inherit;">
+                            <span><img src="../assets/icon/Email Icon - 24x24.svg" alt="Email" /></span>
+                            <span>nguyenvandung01052002@gmail.com</span>
+                        </a>
+                    </div>
+                    <div class="contact-info-item">
+                        <span><img src="../assets/icon/Phone Icon - 24x24.svg" alt="Phone" /></span>
+                        <span>(+84) (0) 327 049 143</span>
+                    </div>
+                    <a href="https://github.com/dung-1">
+                        <div class="contact-info-item">
+                            <span style="color: #ffffff">
+                                <!-- GitHub SVG icon -->
+                                <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path
+                                            d="M9.29183 21V18.4407L9.3255 16.6219C9.36595 16.0561 9.58639 15.5228 9.94907 15.11C9.95438 15.1039 9.95972 15.0979 9.9651 15.0919C9.9791 15.0763 9.96988 15.0511 9.94907 15.0485V15.0485C7.52554 14.746 5.0005 13.7227 5.0005 9.26749C4.9847 8.17021 5.3427 7.10648 6.00437 6.27215C6.02752 6.24297 6.05103 6.21406 6.07492 6.18545V6.18545C6.10601 6.1482 6.11618 6.09772 6.10194 6.05134C6.10107 6.04853 6.10021 6.04571 6.09935 6.04289C6.0832 5.9899 6.06804 5.93666 6.05388 5.88321C5.81065 4.96474 5.86295 3.98363 6.20527 3.09818C6.20779 3.09164 6.21034 3.08511 6.2129 3.07858C6.22568 3.04599 6.25251 3.02108 6.28698 3.01493V3.01493C6.50189 2.97661 7.37036 2.92534 9.03298 4.07346C9.08473 4.10919 9.13724 4.14609 9.19053 4.18418V4.18418C9.22901 4.21168 9.27794 4.22011 9.32344 4.20716C9.32487 4.20675 9.32631 4.20634 9.32774 4.20593C9.41699 4.18056 9.50648 4.15649 9.59617 4.1337C11.1766 3.73226 12.8234 3.73226 14.4038 4.1337C14.4889 4.1553 14.5737 4.17807 14.6584 4.20199C14.6602 4.20252 14.6621 4.20304 14.6639 4.20356C14.7174 4.21872 14.7749 4.20882 14.8202 4.17653V4.17653C14.8698 4.14114 14.9187 4.10679 14.967 4.07346C16.6257 2.92776 17.4894 2.9764 17.7053 3.01469V3.01469C17.7404 3.02092 17.7678 3.04628 17.781 3.07946C17.7827 3.08373 17.7843 3.08799 17.786 3.09226C18.1341 3.97811 18.1894 4.96214 17.946 5.88321C17.9315 5.93811 17.9159 5.9928 17.8993 6.04723V6.04723C17.8843 6.09618 17.8951 6.14942 17.9278 6.18875C17.9289 6.18998 17.9299 6.19121 17.9309 6.19245C17.9528 6.21877 17.9744 6.24534 17.9956 6.27215C18.6573 7.10648 19.0153 8.17021 18.9995 9.26749C18.9995 13.747 16.4565 14.7435 14.0214 15.015V15.015C14.0073 15.0165 14.001 15.0334 14.0105 15.0439C14.0141 15.0479 14.0178 15.0519 14.0214 15.0559C14.2671 15.3296 14.4577 15.6544 14.5811 16.0103C14.7101 16.3824 14.7626 16.7797 14.7351 17.1754V21"
+                                            stroke="#6b7688" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                        <path
+                                            d="M4 17C4.36915 17.0523 4.72159 17.1883 5.03065 17.3975C5.3397 17.6068 5.59726 17.8838 5.7838 18.2078C5.94231 18.4962 6.15601 18.7504 6.41264 18.9557C6.66927 19.161 6.96379 19.3135 7.27929 19.4043C7.59478 19.4952 7.92504 19.5226 8.25112 19.485C8.5772 19.4475 8.89268 19.3457 9.17946 19.1855"
+                                            stroke="#6b7688" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                    </g>
+                                </svg>
+                            </span>
+                            <span>GitHub</span>
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <img id="footer-logo" src="../assets/icon/Logo - White - 30x30.svg" alt="footer-logo" />
+        <ul>
+            <li><a href="#intro">Trang chủ</a></li>
+            <li><a href="#about">Giới thiệu</a></li>
+            <li><a href="#services-hash">Dịch vụ</a></li>
+            <li><a href="#portfolio">Dự án</a></li>
+            <li><a href="#contact">Liên hệ</a></li>
+        </ul>
+        <a href="https://www.facebook.com/profile.php?id=61557219386837">
+            <div id="footer-social">
+                <span class="footer-social-item">
+                    <img src="../assets/icon/Fb Icon - White - 30x30.svg" alt="fb-icon" />
+                </span>
+            </div>
+        </a>
+        <p>&copy; 2024 DungCTS. Đã đăng ký bản quyền</p>
+    </footer>
+    <script src="../js/form.js"></script>
+    <script src="../js/index.js"></script>
+    <script>
+        if (window.location.pathname === "/") {
+            window.location.replace("/vi");
+        }
+    </script>
+    <button id="back-to-top" title="Lên đầu trang">&#8679;</button>
+</body>
+
+</html>
