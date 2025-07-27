@@ -9,7 +9,7 @@
         "endDate": "03/2024",
         "description": "Description: Website introduce and promote the best dishes and products in the restaurant. Thereby increasing customer access to the restaurant.\nRole: Contributed to developing, upgrading functionalities, and maintaining the system.\nTeam size: 05\nTechnologies used: .NET CORE, C#, ASP.NET MVC, Entity Framework, Razor Page, jquery, JavaScript"
     },
-        {
+    {
         "filter": "logo",
         "url": "../assets/image/portfolio/thumbnail",
         "name": "brochure-blushbeach",
@@ -19,7 +19,7 @@
         "endDate": "08/2024",
         "description": "Description: Website for managing human resources as well as projects with in the company.\nRole: Participate in developing and implementing functions such as login, secure authorization using jwt technology, and time series chart statistics function.\nTeam size: 10\nTechnologies used: Java, Spring Boot, Angular, jquery, JavaScript"
     },
-        {
+    {
         "filter": "logo",
         "url": "../assets/image/portfolio/thumbnail",
         "name": "banner-blushbeach",
@@ -29,7 +29,7 @@
         "endDate": "06/2025",
         "description": "Description:Work Management System designed to help businesses efficiently track tasks, monitor project progress, and manage team collaboration. The system provides features such as task assignment, deadline tracking, progress visualization, and notification alerts to enhance workflow efficiency.\nRole: Developed software based on QA requirements, including UI design, feature implementation, and bug fixing. Worked on enhancing user experience by creating intuitive and responsive interfaces.\nTeam size: 13\nTechnologies used: .NET CORE, C#, ASP.NET MVC, Entity Framework, jquery, JavaScript"
     },
-      {
+    {
         "filter": "marketing",
         "url": "../assets/image/portfolio/thumbnail",
         "name": "vivu-logo-option2",
@@ -39,7 +39,7 @@
         "endDate": "02/2024",
         "description": "Description: App includes functions such as registering, logging in, reading stories, commenting, searching, and sorting. Also uses resful api written in Python - Django and integrates train Model into the comment function.\nRole: Participate in developing and implementing functions such as login, Contributed to developing, upgrading functionalities and UI.\nTeam size: 5\nTechnologies used: Java, Resful Api, Python - Django.\nLink-github: https://s.net.vn/Za7U"
     },
-        {
+    {
         "filter": "marketing",
         "url": "../assets/image/portfolio/thumbnail",
         "name": "banner-blushbeach",
@@ -48,7 +48,8 @@
         "startDate": "11/2024",
         "endDate": "06/2025",
         "description": "Description:Contributed to developing, upgrading functionalities.\nTeam size: 3\nTechnologies used:Java Servlet, HTML, CSS, JavaScript.\nLink-github: bit.ly/46eDg4G"
-    },  {
+    },
+    {
         "filter": "web",
         "url": "../assets/image/portfolio/thumbnail",
         "name": "website-04",
@@ -58,5 +59,4 @@
         "endDate": "08/2024",
         "description": "Description: Website introduces and promotes the store's best Laptop products. Thereby increasing customer accessibility to the store. There are special functions such as handling sales operations, verifying login and sending tokens to gmail, integrating online payments and sending invoices to gmail, Vietqr API integration, Using Background Jobs and scheduled task, chatting between administrators and customers using the signalR library, chatbot integration using dialogflow and multilingual functional language integration with i18n library.\nRole: Contributed to developing, upgrading functionalities, and maintaining the system.\nTechnologies used: .NET CORE, C#, ASP.NET MVC, Entity Framework, Html, Css, Javascript, Ajax, JQuery.\nLink-github:https://s.net.vn/FgjG"
     }
-
-]
+] 

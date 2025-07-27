@@ -1,0 +1,62 @@
+[
+    {
+        "filter": "logo",
+        "url": "../assets/image/portfolio/thumbnail",
+        "name": "vivu-logo-option2",
+        "type": ".jpg",
+        "title": "SeaFood - Website CMS",
+        "startDate": "01/2024",
+        "endDate": "03/2024",
+        "description": "Mô tả: Website giới thiệu và quảng bá các món ăn, sản phẩm tốt nhất của nhà hàng. Qua đó tăng khả năng tiếp cận khách hàng cho nhà hàng.\nVai trò: Tham gia phát triển, nâng cấp chức năng và bảo trì hệ thống.\nQuy mô nhóm: 05\nCông nghệ sử dụng: .NET CORE, C#, ASP.NET MVC, Entity Framework, Razor Page, jquery, JavaScript"
+    },
+    {
+        "filter": "logo",
+        "url": "../assets/image/portfolio/thumbnail",
+        "name": "brochure-blushbeach",
+        "type": ".jpg",
+        "title": "Quản lý chất lượng",
+        "startDate": "05/2024",
+        "endDate": "08/2024",
+        "description": "Mô tả: Website quản lý nhân sự cũng như các dự án trong công ty.\nVai trò: Tham gia phát triển và triển khai các chức năng như đăng nhập, phân quyền bảo mật bằng jwt, chức năng thống kê biểu đồ chuỗi thời gian.\nQuy mô nhóm: 10\nCông nghệ sử dụng: Java, Spring Boot, Angular, jquery, JavaScript"
+    },
+    {
+        "filter": "logo",
+        "url": "../assets/image/portfolio/thumbnail",
+        "name": "banner-blushbeach",
+        "type": ".jpg",
+        "title": "Hệ thống quản lý công việc",
+        "startDate": "11/2024",
+        "endDate": "06/2025",
+        "description": "Mô tả: Hệ thống quản lý công việc giúp doanh nghiệp theo dõi nhiệm vụ, tiến độ dự án, quản lý hợp tác nhóm hiệu quả. Hệ thống cung cấp các tính năng như giao việc, theo dõi hạn, trực quan hóa tiến độ, thông báo nhắc nhở để nâng cao hiệu suất làm việc.\nVai trò: Phát triển phần mềm theo yêu cầu QA, bao gồm thiết kế UI, triển khai tính năng, sửa lỗi. Nâng cao trải nghiệm người dùng với giao diện trực quan, phản hồi tốt.\nQuy mô nhóm: 13\nCông nghệ sử dụng: .NET CORE, C#, ASP.NET MVC, Entity Framework, jquery, JavaScript"
+    },
+    {
+        "filter": "marketing",
+        "url": "../assets/image/portfolio/thumbnail",
+        "name": "vivu-logo-option2",
+        "type": ".jpg",
+        "title": "Ứng dụng đọc truyện Android",
+        "startDate": "01/2024",
+        "endDate": "02/2024",
+        "description": "Mô tả: Ứng dụng có các chức năng đăng ký, đăng nhập, đọc truyện, bình luận, tìm kiếm, sắp xếp. Sử dụng restful api viết bằng Python - Django và tích hợp train Model vào chức năng bình luận.\nVai trò: Tham gia phát triển, triển khai các chức năng như đăng nhập, nâng cấp chức năng và UI.\nQuy mô nhóm: 5\nCông nghệ sử dụng: Java, Resful Api, Python - Django.\nLink-github: https://s.net.vn/Za7U"
+    },
+    {
+        "filter": "marketing",
+        "url": "../assets/image/portfolio/thumbnail",
+        "name": "banner-blushbeach",
+        "type": ".jpg",
+        "title": "Website thương mại điện tử laptop",
+        "startDate": "11/2024",
+        "endDate": "06/2025",
+        "description": "Mô tả: Tham gia phát triển, nâng cấp chức năng.\nQuy mô nhóm: 3\nCông nghệ sử dụng: Java Servlet, HTML, CSS, JavaScript.\nLink-github: bit.ly/46eDg4G"
+    },
+    {
+        "filter": "web",
+        "url": "../assets/image/portfolio/thumbnail",
+        "name": "website-04",
+        "type": ".jpg",
+        "title": "Website thương mại điện tử laptop",
+        "startDate": "05/2024",
+        "endDate": "08/2024",
+        "description": "Mô tả: Website giới thiệu, quảng bá các sản phẩm laptop tốt nhất của cửa hàng. Có các chức năng đặc biệt như xử lý bán hàng, xác thực đăng nhập và gửi token qua gmail, tích hợp thanh toán online và gửi hóa đơn qua gmail, tích hợp Vietqr API, sử dụng Background Jobs và scheduled task, chat giữa admin và khách hàng qua signalR, tích hợp chatbot dialogflow và đa ngôn ngữ với i18n.\nVai trò: Tham gia phát triển, nâng cấp chức năng, bảo trì hệ thống.\nCông nghệ sử dụng: .NET CORE, C#, ASP.NET MVC, Entity Framework, Html, Css, Javascript, Ajax, JQuery.\nLink-github:https://s.net.vn/FgjG"
+    }
+] 

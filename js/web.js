@@ -82,10 +82,15 @@ function createProjectCard(project) {
     `;
     $portfolioWrapper.append($card);
 }
-
+function getCurrentLang() {
+    const lang = window.location.pathname.split('/')[1];
+    if (["vi", "en", "jp"].includes(lang)) return lang;
+    return "vi";
+}
 function callAJAX(filter) {
+    const lang = getCurrentLang();
     $.ajax({
-        url : "../json/data.json",
+        url : `../json/data.${lang}.json`,
         success : function(data) {
             $portfolioWrapper.empty();
             itemHolder = [];
@@ -126,4 +131,13 @@ $(document).ready(function() {
     // Đánh dấu nút ngôn ngữ đang chọn
     const currentLang = window.location.pathname.split('/')[1] || 'vi';
     $(`.lang-btn[data-lang="${currentLang}"]`).addClass('active');
+});
+document.addEventListener('DOMContentLoaded', function () {
+  const backToTop = document.getElementById('back-to-top');
+  window.addEventListener('scroll', function () {
+    backToTop.style.display = window.scrollY > 300 ? 'block' : 'none';
+  });
+  backToTop.addEventListener('click', function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
 });

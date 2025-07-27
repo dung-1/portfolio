@@ -1,0 +1,62 @@
+[
+    {
+        "filter": "logo",
+        "url": "../assets/image/portfolio/thumbnail",
+        "name": "vivu-logo-option2",
+        "type": ".jpg",
+        "title": "SeaFood - CMSウェブサイト",
+        "startDate": "01/2024",
+        "endDate": "03/2024",
+        "description": "説明: レストランの最高の料理や商品を紹介・宣伝するウェブサイトです。これにより、レストランへの顧客アクセスが向上します。\n役割: 機能の開発・アップグレード・保守に貢献。\nチーム規模: 05\n使用技術: .NET CORE, C#, ASP.NET MVC, Entity Framework, Razor Page, jquery, JavaScript"
+    },
+    {
+        "filter": "logo",
+        "url": "../assets/image/portfolio/thumbnail",
+        "name": "brochure-blushbeach",
+        "type": ".jpg",
+        "title": "品質管理",
+        "startDate": "05/2024",
+        "endDate": "08/2024",
+        "description": "説明: 会社内の人材およびプロジェクトを管理するウェブサイト。\n役割: JWT技術によるセキュア認証、ログイン、時系列チャート統計などの機能開発・実装に参加。\nチーム規模: 10\n使用技術: Java, Spring Boot, Angular, jquery, JavaScript"
+    },
+    {
+        "filter": "logo",
+        "url": "../assets/image/portfolio/thumbnail",
+        "name": "banner-blushbeach",
+        "type": ".jpg",
+        "title": "業務管理システム",
+        "startDate": "11/2024",
+        "endDate": "06/2025",
+        "description": "説明: 業務管理システムは、企業がタスクの追跡、プロジェクト進捗の監視、チームコラボレーションの管理を効率的に行うためのものです。タスク割り当て、期限管理、進捗の可視化、通知アラートなどの機能を提供し、ワークフローの効率を高めます。\n役割: QA要件に基づくソフトウェア開発（UI設計、機能実装、バグ修正）。直感的でレスポンシブなUIでユーザー体験を向上。\nチーム規模: 13\n使用技術: .NET CORE, C#, ASP.NET MVC, Entity Framework, jquery, JavaScript"
+    },
+    {
+        "filter": "marketing",
+        "url": "../assets/image/portfolio/thumbnail",
+        "name": "vivu-logo-option2",
+        "type": ".jpg",
+        "title": "Android用小説リーダーアプリ",
+        "startDate": "01/2024",
+        "endDate": "02/2024",
+        "description": "説明: 登録、ログイン、小説閲覧、コメント、検索、並べ替えなどの機能を備えたアプリ。Python - Djangoで書かれたRESTful APIを使用し、コメント機能にモデル学習を統合。\n役割: ログイン機能の開発、機能・UIのアップグレードに参加。\nチーム規模: 5\n使用技術: Java, Resful Api, Python - Django.\nGitHubリンク: https://s.net.vn/Za7U"
+    },
+    {
+        "filter": "marketing",
+        "url": "../assets/image/portfolio/thumbnail",
+        "name": "banner-blushbeach",
+        "type": ".jpg",
+        "title": "ノートパソコンECサイト",
+        "startDate": "11/2024",
+        "endDate": "06/2025",
+        "description": "説明: 機能開発・アップグレードに貢献。\nチーム規模: 3\n使用技術: Java Servlet, HTML, CSS, JavaScript.\nGitHubリンク: bit.ly/46eDg4G"
+    },
+    {
+        "filter": "web",
+        "url": "../assets/image/portfolio/thumbnail",
+        "name": "website-04",
+        "type": ".jpg",
+        "title": "ノートパソコンECサイト",
+        "startDate": "05/2024",
+        "endDate": "08/2024",
+        "description": "説明: 店舗のベストなノートパソコン商品を紹介・宣伝するウェブサイト。販売処理、ログイン認証とトークンのGmail送信、オンライン決済・請求書Gmail送信、Vietqr API連携、バックグラウンドジョブ・スケジュールタスク、管理者と顧客のSignalRチャット、Dialogflowチャットボット、i18nによる多言語対応などの機能あり。\n役割: 機能開発・アップグレード、システム保守に貢献。\n使用技術: .NET CORE, C#, ASP.NET MVC, Entity Framework, Html, Css, Javascript, Ajax, JQuery.\nGitHubリンク:https://s.net.vn/FgjG"
+    }
+] 
