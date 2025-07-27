@@ -45,8 +45,8 @@
         "name": "laptop1",
         "type": ".jpg",
         "title": "Website thương mại điện tử laptop",
-        "startDate": "11/2024",
-        "endDate": "06/2025",
+         "startDate": "06/2023",
+        "endDate": "07/2023",
         "description": "Mô tả: Tham gia phát triển, nâng cấp chức năng.\nQuy mô nhóm: 3\nCông nghệ sử dụng: Java Servlet, HTML, CSS, JavaScript.\nLink-github: bit.ly/46eDg4G"
     },
     {
@@ -55,8 +55,8 @@
         "name": "website-04",
         "type": ".jpg",
         "title": "Website thương mại điện tử laptop",
-        "startDate": "05/2024",
-        "endDate": "08/2024",
+        "startDate": "10/2023",
+        "endDate": "06/2024",
         "description": "Mô tả: Website giới thiệu, quảng bá các sản phẩm laptop tốt nhất của cửa hàng. Có các chức năng đặc biệt như xử lý bán hàng, xác thực đăng nhập và gửi token qua gmail, tích hợp thanh toán online và gửi hóa đơn qua gmail, tích hợp Vietqr API, sử dụng Background Jobs và scheduled task, chat giữa admin và khách hàng qua signalR, tích hợp chatbot dialogflow và đa ngôn ngữ với i18n.\nVai trò: Tham gia phát triển, nâng cấp chức năng, bảo trì hệ thống.\nCông nghệ sử dụng: .NET CORE, C#, ASP.NET MVC, Entity Framework, Html, Css, Javascript, Ajax, JQuery.\nLink-github:https://s.net.vn/FgjG"
     }
 ] 

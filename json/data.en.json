@@ -45,8 +45,8 @@
         "name": "laptop1",
         "type": ".jpg",
         "title": "LAPTOP E-COMMERCE WEBSITE",
-        "startDate": "11/2024",
-        "endDate": "06/2025",
+        "startDate": "06/2023",
+        "endDate": "07/2023",
         "description": "Description:Contributed to developing, upgrading functionalities.\nTeam size: 3\nTechnologies used:Java Servlet, HTML, CSS, JavaScript.\nLink-github: bit.ly/46eDg4G"
     },
     {
@@ -55,8 +55,8 @@
         "name": "website-04",
         "type": ".jpg",
         "title": "LAPTOP E-COMMERCE WEBSITE",
-        "startDate": "05/2024",
-        "endDate": "08/2024",
+        "startDate": "10/2023",
+        "endDate": "06/2024",
         "description": "Description: Website introduces and promotes the store's best Laptop products. Thereby increasing customer accessibility to the store. There are special functions such as handling sales operations, verifying login and sending tokens to gmail, integrating online payments and sending invoices to gmail, Vietqr API integration, Using Background Jobs and scheduled task, chatting between administrators and customers using the signalR library, chatbot integration using dialogflow and multilingual functional language integration with i18n library.\nRole: Contributed to developing, upgrading functionalities, and maintaining the system.\nTechnologies used: .NET CORE, C#, ASP.NET MVC, Entity Framework, Html, Css, Javascript, Ajax, JQuery.\nLink-github:https://s.net.vn/FgjG"
     }
 ] 

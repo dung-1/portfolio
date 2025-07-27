@@ -45,8 +45,8 @@
         "name": "laptop1",
         "type": ".jpg",
         "title": "ノートパソコンECサイト",
-        "startDate": "11/2024",
-        "endDate": "06/2025",
+         "startDate": "06/2023",
+        "endDate": "07/2023",
         "description": "説明: 機能開発・アップグレードに貢献。\nチーム規模: 3\n使用技術: Java Servlet, HTML, CSS, JavaScript.\nGitHubリンク: bit.ly/46eDg4G"
     },
     {
@@ -55,8 +55,8 @@
         "name": "website-04",
         "type": ".jpg",
         "title": "ノートパソコンECサイト",
-        "startDate": "05/2024",
-        "endDate": "08/2024",
+        "startDate": "10/2023",
+        "endDate": "06/2024",
         "description": "説明: 店舗のベストなノートパソコン商品を紹介・宣伝するウェブサイト。販売処理、ログイン認証とトークンのGmail送信、オンライン決済・請求書Gmail送信、Vietqr API連携、バックグラウンドジョブ・スケジュールタスク、管理者と顧客のSignalRチャット、Dialogflowチャットボット、i18nによる多言語対応などの機能あり。\n役割: 機能開発・アップグレード、システム保守に貢献。\n使用技術: .NET CORE, C#, ASP.NET MVC, Entity Framework, Html, Css, Javascript, Ajax, JQuery.\nGitHubリンク:https://s.net.vn/FgjG"
     }
 ] 
