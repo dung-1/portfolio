@@ -1613,7 +1613,7 @@ section.active {
   }
   #contact #contact-info {
     -ms-grid-columns: (auto)[2];
-        grid-template-columns: repeat(2, auto);
+        grid-template-columns: repeat(1, auto);
   }
 }
 

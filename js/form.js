@@ -69,3 +69,10 @@ function subForm (form) {
         }
     });
 }
+
+  function updateDateTime() {
+    const now = new Date();
+    const datetimeString = now.getFullYear();
+    document.getElementById('datetime').textContent = datetimeString;
+  }
+updateDateTime();
